@@ -1,0 +1,65 @@
+* {
+    /* box-sizing: border-box; */
+}
+body {
+    background-image: url(../images/intersection.png);
+}
+
+ul {
+    position: relative;
+    background-color: #ffffff;
+    list-style-type: none;
+    margin: 0 230px 0 0; 
+    padding: 1.8em;
+    overflow: hidden;
+    border-bottom: 1px solid darkgray;
+}
+
+li {
+    float: right;
+    text-align: center;
+    margin-left: 1em;
+    color: #e7e7e7;
+}
+
+h1 {
+    float: left;
+    position: relative;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    display: block;
+    padding: 22px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    margin: 0 0 0 230px;
+    overflow: hidden;
+    z-index: 3;
+    border-bottom: 1px solid darkgray;
+}
+
+.content {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 230px;
+    width: 960px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* display: block; */
+    padding: 1.5em;
+    width: 100%;
+    background-color: darkgray;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    color: white;
+    margin: 0 auto;
+}
