@@ -19,7 +19,7 @@ li {
     float: right;
     text-align: center;
     margin-left: 1em;
-    color: #e7e7e7;
+    color: #777777;
 }
 
 h1 {
@@ -39,15 +39,31 @@ h1 {
     border-bottom: 1px solid darkgray;
 }
 
+h2 {
+    color: #4aaaa5;
+    font-size: 35px;
+}
+
+p {
+    color: #777777;
+}
+
+form {
+    color: #777777;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: whitesmoke;
+}
+
 .content {
     position: relative;
     margin-top: 30px;
     margin-left: 230px;
     width: 960px;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #dddddd;
     background-color: #ffffff;
-    
-
 }
 
 footer {
@@ -57,9 +73,21 @@ footer {
     /* display: block; */
     padding: 1.5em;
     width: 100%;
-    background-color: darkgray;
+    background-color: #666666;
     text-align: center;
     border-top: 5px solid #4aaaa5;
     color: white;
     margin: 0 auto;
+}
+
+li a {
+    padding: 30px;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: whitesmoke;
 }
