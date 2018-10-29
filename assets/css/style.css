@@ -46,6 +46,7 @@ h2 {
 
 p {
     color: #777777;
+    margin: 1em;
 }
 
 form {
@@ -88,6 +89,25 @@ li a {
 }
 
 li a:hover {
+    background-color: #4aaaa5;
+    color: whitesmoke;
+}
+
+#placeholder0 {
+    float: left;
+}
+
+#about {
+    background-color: #4aaaa5;
+    color: whitesmoke;
+}
+
+#portfolio {
+    background-color: #4aaaa5;
+    color: whitesmoke;
+}
+
+#contacts {
     background-color: #4aaaa5;
     color: whitesmoke;
 }
