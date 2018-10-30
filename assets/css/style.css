@@ -62,17 +62,24 @@ h1 {
 h2 {
     color: #4aaaa5;
     font-size: 35px;
+    margin-left:  2em;
+    margin-right: 2em;
 }
 
 p {
     color: #777777;
     margin: 1em;
+    line-height: 2;
 }
 
 form {
     color: #777777;
     margin: 20px;
     
+}
+
+hr {
+    margin: 2em;
 }
 
 #inputName {
@@ -137,4 +144,11 @@ footer {
 #contacts {
     background-color: #4aaaa5;
     color: whitesmoke;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -20px;
+    font-size: 10px;
 }
