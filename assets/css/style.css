@@ -3,37 +3,57 @@
 }
 body {
     background-image: url(../images/intersection.png);
+    margin: 0; 
 }
-
+                                                                                  /* navbar */
 ul {
     position: relative;
     background-color: #ffffff;
     list-style-type: none;
-    margin: 0 230px 0 0; 
+    margin: 0; 
     padding: 1.8em;
-    overflow: hidden;
+    height: 19px;
+    /* overflow: hidden; */
     border-bottom: 1px solid darkgray;
 }
 
 li {
+    position: relative;
     float: right;
-    text-align: center;
+    right: 230px;
+    align-content: center;
     margin-left: 1em;
     color: #777777;
+    margin-top: 0;
 }
 
+li a {
+    padding: 30px;
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    margin-top: 0;
+
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+    color: whitesmoke;
+}
+                                                                                /* name in heading */
 h1 {
     float: left;
     position: relative;
     text-align: center;
+    font-size: 30px;
     background-color: #4aaaa5;
     color: whitesmoke;
     display: block;
     padding: 22px;
     height: 32px;
     top: 0;
-    left: 0;
-    margin: 0 0 0 230px;
+    left: 230px;
+    margin: 0;
     overflow: hidden;
     z-index: 3;
     border-bottom: 1px solid darkgray;
@@ -51,11 +71,27 @@ p {
 
 form {
     color: #777777;
+    margin: 20px;
+    
+}
+
+#inputName {
+    width: 100%;
+}
+
+#inputEmail {
+    width: 100%;
+}
+
+#inputMessage {
+    width: 100%;
+    
 }
 
 button {
     background-color: #4aaaa5;
     color: whitesmoke;
+    margin: 20px;
 }
 
 .content {
@@ -81,22 +117,13 @@ footer {
     margin: 0 auto;
 }
 
-li a {
-    padding: 30px;
-    width: 100%;
-    text-decoration: none;
-    color: inherit;
-}
 
-li a:hover {
-    background-color: #4aaaa5;
-    color: whitesmoke;
-}
+
 
 #placeholder0 {
     float: left;
 }
-
+        /* navbar fixed color */
 #about {
     background-color: #4aaaa5;
     color: whitesmoke;
