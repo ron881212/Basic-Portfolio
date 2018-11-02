@@ -15,7 +15,7 @@ ul {
     padding: 1.8em;
     height: 19px;
     width: 100%;
-    /* overflow: hidden; */
+    /* overflow: none; */
     border-bottom: 1px solid darkgray;
 }
 
@@ -30,7 +30,7 @@ li {
 }
 
 li a {
-    padding: 30px;
+    padding: 31px;
     width: 100%;
     text-decoration: none;
     color: inherit;
