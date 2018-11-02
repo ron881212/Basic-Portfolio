@@ -1,3 +1,7 @@
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 body {
     background-image: url(../images/intersection.png);
     margin: 0; 
@@ -55,6 +59,7 @@ h1 {
     overflow: hidden;
     z-index: 3;
     border-bottom: 1px solid darkgray;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 h2 {
@@ -62,6 +67,7 @@ h2 {
     font-size: 35px;
     margin-left:  1em;
     margin-right: 2em;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 p {
