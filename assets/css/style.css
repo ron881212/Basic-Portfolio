@@ -126,12 +126,22 @@ button {
     background-color: #ffffff;
     /* margin: 0 auto; */
 }
+.conContent {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 230px;
+    margin-bottom: 50px;
+    width: 960px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    /* margin: 0 auto; */
+}
 
 .portContent {
     position: relative;
     margin-top: 30px;
     margin-left: 230px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     width: 960px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
@@ -152,7 +162,7 @@ footer {
 }
 
 #conFooter {
-    position: fixed;
+    position: static;
     bottom: 0;
     left: 0;
     display: block;
